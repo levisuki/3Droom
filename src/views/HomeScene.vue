@@ -88,7 +88,7 @@ function loadModel() {
   const loader = new GLTFLoader();
 
   loader.load(
-    '/src/models/room.glb',
+    '/models/room.glb',
     (gltf) => {
       model = gltf.scene;
       model.scale.set(1, 1, 1);
